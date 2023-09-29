@@ -66,11 +66,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="paginas\estatisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paginas\estatisticas.Designer.cs">
+      <DependentUpon>estatisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paginas\inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paginas\vendas.Designer.cs">
+      <DependentUpon>vendas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Revenue.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paginas\estatisticas.resx">
+      <DependentUpon>estatisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paginas\inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paginas\vendas.resx">
+      <DependentUpon>vendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +106,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -91,10 +118,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Revenue.datasource" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cashier-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2023-09-18 110529.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
