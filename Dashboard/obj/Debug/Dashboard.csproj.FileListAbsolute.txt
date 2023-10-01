@@ -41,6 +41,7 @@ C:\Users\Usuario\Desktop\Dashboard-Test-main\Dashboard\bin\Debug\LiveCharts.Wpf.
 C:\Users\Usuario\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
 C:\Users\Usuario\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.paginas.estatisticas.resources
 C:\Users\Usuario\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.paginas.vendas.resources
+<<<<<<< HEAD
 C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\bin\Debug\Dashboard.exe.config
 C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\bin\Debug\Dashboard.exe
 C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\bin\Debug\Dashboard.pdb
@@ -64,3 +65,5 @@ C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.cspro
 C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
 C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.exe
 C:\Users\Juninho\Desktop\Dashboard-Test-main\Dashboard\obj\Debug\Dashboard.pdb
+=======
+>>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d

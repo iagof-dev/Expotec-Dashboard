@@ -12,10 +12,13 @@ namespace Dashboard.paginas
 {
     public partial class vendas : Form
     {
+<<<<<<< HEAD
         int produtos;
         double valores;
         DateTime datas;
 
+=======
+>>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
         public vendas()
         {
             InitializeComponent();
@@ -23,10 +26,14 @@ namespace Dashboard.paginas
 
         private void btn_AddVenda_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             dgvGrafico.Rows.Add(txt_produto.Text, txt_valor.Text, dtpicker.Text);
 
             MessageBox.Show("Item inserido com sucesso!", ": D",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+=======
+
+>>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
         }
 
         private void txt_valor_KeyDown(object sender, KeyEventArgs e)
@@ -51,6 +58,7 @@ namespace Dashboard.paginas
         {
 
         }
+<<<<<<< HEAD
 
         private void btn_Remover_Click(object sender, EventArgs e)
         {
@@ -63,5 +71,7 @@ namespace Dashboard.paginas
                 dgvGrafico.Text = dgvGrafico.RowCount.ToString("C");
             }
         }
+=======
+>>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
     }
 }

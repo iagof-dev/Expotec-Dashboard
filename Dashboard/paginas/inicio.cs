@@ -16,6 +16,7 @@ namespace Dashboard.paginas
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
  
 
@@ -33,5 +34,7 @@ namespace Dashboard.paginas
         {
             //lblNome.Text = txtNome.Text.ToString();
         }
+=======
+>>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
     }
 }
