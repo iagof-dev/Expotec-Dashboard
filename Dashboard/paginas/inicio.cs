@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dashboard.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +17,6 @@ namespace Dashboard.paginas
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
  
 
@@ -32,9 +32,9 @@ namespace Dashboard.paginas
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            //lblNome.Text = txtNome.Text.ToString();
+            Usuario.name = txtNome.Text;
         }
-=======
->>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
+
+
     }
 }

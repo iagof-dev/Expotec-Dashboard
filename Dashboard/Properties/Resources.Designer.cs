@@ -73,9 +73,9 @@ namespace Dashboard.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_cashier_60 {
+        internal static System.Drawing.Bitmap machine {
             get {
-                object obj = ResourceManager.GetObject("icons8-cashier-60", resourceCulture);
+                object obj = ResourceManager.GetObject("machine", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

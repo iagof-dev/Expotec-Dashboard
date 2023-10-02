@@ -13,6 +13,7 @@ using LiveCharts.Wpf;
 using LiveCharts;
 using System.Reflection;
 using Dashboard.paginas;
+using Dashboard.Model;
 
 namespace Dashboard
 {
@@ -55,6 +56,7 @@ namespace Dashboard
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            Usuario.name = "Usuario";
             CHANGE_FORM(new inicio());
         }
 
@@ -114,18 +116,11 @@ namespace Dashboard
             Application.Exit();
         }
 
-        private void btnLoad_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel_forms_Paint(object sender, PaintEventArgs e)
-        {
-
+            if (Usuario.name != "Usuario")
+                lblNome.Text = Usuario.name;
+            return;
         }
     }
 }

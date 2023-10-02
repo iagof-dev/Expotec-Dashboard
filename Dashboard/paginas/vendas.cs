@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dashboard.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +13,8 @@ namespace Dashboard.paginas
 {
     public partial class vendas : Form
     {
-<<<<<<< HEAD
-        int produtos;
-        double valores;
-        DateTime datas;
+        List<vendas> vendasList;
 
-=======
->>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
         public vendas()
         {
             InitializeComponent();
@@ -26,14 +22,15 @@ namespace Dashboard.paginas
 
         private void btn_AddVenda_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+            dgvGrafico.Rows.Add(txt_produto.Text, txt_valor.Text, dtpicker.Text);
+            Vendas v =new Vendas();
+            vendasList.Add(txt_produto.Text, txt_valor.Text, dtpicker.Text);
+
+
             dgvGrafico.Rows.Add(txt_produto.Text, txt_valor.Text, dtpicker.Text);
 
             MessageBox.Show("Item inserido com sucesso!", ": D",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
-=======
-
->>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
         }
 
         private void txt_valor_KeyDown(object sender, KeyEventArgs e)
@@ -44,21 +41,6 @@ namespace Dashboard.paginas
             }
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_valor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-<<<<<<< HEAD
 
         private void btn_Remover_Click(object sender, EventArgs e)
         {
@@ -71,7 +53,7 @@ namespace Dashboard.paginas
                 dgvGrafico.Text = dgvGrafico.RowCount.ToString("C");
             }
         }
-=======
->>>>>>> 67bea659cd97bb69ad983c43fd8a4817ead98e6d
+
+
     }
 }
